@@ -1,0 +1,21 @@
+# Core pipeline
+apache-airflow==2.8.1
+apache-airflow-providers-postgres==5.10.0
+
+# Data processing
+pandas==2.2.0
+requests==2.31.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Dashboard
+streamlit==1.31.0
+plotly==5.18.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.0.0
+pytest-mock==3.12.0
