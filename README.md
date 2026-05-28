@@ -67,7 +67,7 @@ The pipeline is idempotent — you can run it multiple times and it won't create
 
 ```bash
 # Clone and set up
-git clone https://github.com/prashamnagda/eia-airflow-pipeline.git
+git clone https://github.com/PrashamNagda/EIA_Airflow.git
 cd eia-airflow-pipeline
 python3.11 -m venv venv
 source venv/bin/activate
