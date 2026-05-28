@@ -25,7 +25,7 @@ Every week, Airflow automatically runs 4 tasks in sequence:
 3. **validate_load** — checks that rows actually made it in, fails loudly if something went wrong
 4. **log_run** — records the run metadata so you can track pipeline health over time
 
-![Airflow DAG - all tasks green](docs/airflow-dag.png)
+![Airflow DAG - all tasks green](docs/ airflow-dag.png)
 
 The pipeline is idempotent — you can run it multiple times and it won't create duplicate rows. That's handled with `INSERT ... ON CONFLICT DO NOTHING` in the database layer.
 
